@@ -38,15 +38,39 @@ This project demonstrates my ability to build a complete frontend application wi
 
 ## ✨ Features
 
-✔️ Add and manage income sources
-✔️ Track daily expenses
-✔️ Real-time balance calculation
-✔️ Dashboard with separate widgets (Income, Expenses, Balance)
-✔️ Persistent login using LocalStorage
-✔️ Clean and responsive UI
-✔️ Fast performance with Vite
+## ✨ Features
+
+✔️ Add, edit, and delete transactions  
+✔️ Track income and expenses  
+✔️ Dynamic balance calculation  
+✔️ Dashboard widgets (Income, Expenses, Balance)  
+✔️ Month-based filtering (JAN → DEC)  
+✔️ Interactive charts (income, expenses, balance trends)  
+✔️ Category-wise spending breakdown  
+✔️ Insights (highest spending category, monthly comparison)  
+✔️ Search, filtering, and sorting  
+✔️ CSV export functionality  
+✔️ Role-based UI (Viewer/Admin)  
+✔️ Dark and Light mode  
+✔️ Persistent login and data using LocalStorage  
+✔️ Responsive UI for different screen sizes  
 
 ---
+
+## 🔄 State Management
+
+The application uses React Hooks for managing state:
+
+- useState → manages transactions, filters, and UI states  
+- useEffect → synchronizes data with LocalStorage  
+- useMemo → optimizes filtering and calculations  
+
+Key states handled:
+- Transactions data  
+- Selected month  
+- Filters and search  
+- User role  
+- Theme (dark/light)  
 
 ## 🏗️ Architecture / Flow
 
@@ -160,7 +184,7 @@ Then refresh the browser.
 
 ## 🔮 Future Enhancements
 
-🚀 Charts & financial analytics
+🚀 Advanced analytics and deeper insights
 🚀 Backend integration (Node.js / Spring Boot)
 🚀 Secure authentication (JWT)
 🚀 Export reports (PDF/CSV)
